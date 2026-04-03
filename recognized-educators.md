@@ -42,17 +42,20 @@
 
 | Name                  | Specialty                                           |
 | --------------------- | --------------------------------------------------- |
-| Alan Richardson       | exploratory testing, test automation                                     |
+| Alan Richardson       | exploratory testing, test automation                |
+| Alexandra Schladebeck | exploratory testing, agile testing                  |
 | Anne-Marie Charrett   | quality coaching                                    |
+| Bas Dijkstra          | programming for testing                             |
 | Cem Kaner             | software testing, legal aspects of software quality |
 | Elisabeth Hendrickson | exploratory testing, test automation                |
 | James Lyndsay         | exploratory testing                                 |
 | Janet Gregory         | agile testing                                       |
 | Katja Obring          | automation and pipelines                            |
+| Kristoffer Nordström  | programming for testing                             |
 | Maaret Pyhäjärvi      | contemporary exploratory testing                    |
 | Rikard Edgren         | exploratory testing                                 |
 | Sigrid Eldh           | test automation capability assessment               |
-| Tanja Vos             | automated testing with AI                           |
+| Tanja Vos             | software testing, automated testing with AI         |
 | Lisa Crispin          | agile testing                                       |
 | Rex Black             | testing process, leadership                         |
 | Richard Bradshaw      | automation in testing                               |
