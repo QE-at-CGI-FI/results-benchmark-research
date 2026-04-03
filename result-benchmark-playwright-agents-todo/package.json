@@ -1,0 +1,19 @@
+{
+  "name": "result-benchmark-playwright-agents-todo",
+  "version": "1.0.0",
+  "description": "Sample of Playwright agents out-of-box version testing of a todo application with 45 known issues. The purpose is to bechmark #ResultfulTesting: capability of exceptional testers, regular testers and AI agents in being able to not just create appearance of testing but the results we would expect from testing.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.paeuinsource.ent.cgi.com/AI-Exchange/result-benchmark-playwright-agents-todo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.3"
+  }
+}
