@@ -1,0 +1,78 @@
+- [ TYPO ] Incorrectly written word in placeholder text: "need's" => "needs"
+- [ TYPO ] Incorrectly capitalized word in filters text: "active" => "Active" to be consistent with others
+- [ TYPO ] Incorrectly written word in instructions: "toodo" => "todo"
+- [ CORRECTNESS OF FUNCTION ] Counter for items miscalculates to one item less than available on the list
+- [ CORRECTNESS OF FUNCTION ] Select all does not unselect all on 2nd click, only on third click
+- [ CORRECTNESS OF FUNCTION ] Clear does not clear items, it clears only completed items
+- [ CORRECTNESS OF FUNCTION ] Clear completed / Clear -button should only be visible / active when it can be used.
+- [ CORRECTNESS OF FUNCTION ] Placeholder text vanishes after inserting an item and it should always be visible when items can be added; returns on refresh.
+- [ CORRECTNESS OF FUNCTION ] Select all and delete buttons get corrupted given enough time on application and using refresh; ~ for delete, sideways Å for delete.
+- [ CONSISTENCY ] Adding multiple items on list adds spaces in the item entry
+- [ TERMINOLOGY ] Since "Clear" only clears completed items, it should be called "Clear completed"
+- [ DATA ] Adding whitespace while editing does not trim the whitespace but trims on displaying the text on UI.
+- [ IMPLEMENTATION ]`<!-- STUPID APP -->` in comments is probably intentionally added for fun
+- [ IMPLEMENTATION ] "ToDo: Remove this eventually" tooltip is probably added for fun as well
+- [ IMPLEMENTATION ] Errors on missing resources on console are probably added for fun too
+- [ UNIMPLEMENTED ] "Clear" is missing the counter after it the spec asks for
+- [ UNIMPLEMENTED ] No route #!/, a technology-specific routing to main page without reload
+- [ NOTE ] URL does not follow the technology pattern you would expect for the demo app of angular.
+- [ ACCESSIBILITY ] Light color scheme hard to read as contrast to background is low
+- [ NEW FEATURE REQUEST ] Reordering items to show prioritization of to do does not exist
+- [ NEW FEATURE REQUEST ] Word wrapping is not supported, words are cut in middle of the space allocated into two lines
+- [ NEW FEATURE REQUEST ] Limiting visible length of a todo item
+- [ NEW FEATURE REQUEST ] Duplicate detection
+- [ NEW FEATURE REQUEST ] Application does not scale nicely to smaller screen size, make it responsive
+- [ NEW FEATURE REQUEST ] No undo
+- [ NEW FEATURE REQUEST ] No confirm on clear and delete
+- [ NEW FEATURE REQUEST ] Long text edit popup that shows whole text
+- [ NEW FEATURE REQUEST ] Pagination
+- [ USABILITY ] Items are added at end of list not top of the list, and latest additions could be on top
+- [ USABILITY ] Concepts of "active" and "completed" may not be common terms and better term options could be investigated
+- [ USABILITY ] Application does not allow adding a to do item with a mouse. The text needs to be written on keyboard anyway, but a user may be used to expecting a button.
+- [ USABILITY ] Filters / router functionality can be confusing, as the user does not clearly understand the three filters on bottom. User may have a filter of completed on when adding a new one, and the item vanishing can be confusing.
+- [ USABILITY ] Stacked shadow effect in the bottom makes it seem like there are multiple layers. That does not connect well with the filters / routing functionality.
+- [ USABILITY ] Delete, edit and select all options take some discovering.
+- [ USABILITY ] Deletion is only available on select and hover, and deleting multiple items at a time is not possible
+- [ ACCESSIBILITY ] Delete unavailable with keyboard only, keyboard use not supported
+- [ DATA ] `ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็` does not copy a single character but an encoded mess
+- [ LAYOUT ] Long text and delete button would look better if they were separated into own columns
+- [ DATA ] Some text selection get delete icon on top of text
+- [ CONSISTENCY ] Click icon for items that can be selected is hand on bottom, regular on other selections
+- [ LAYOUT ] When window is made smaller, title overlaps itself
+- [ NEW FEATURE REQUEST ] When using two tabs, the list is not kept up to date, requires manual refresh
+- [ USABILITY ] Down arrow as "Complete All" is unintuitive
+- [ NEW FEATURE REQUEST ] Item count should probably be on a page by page basis, not global
+- [ DEPENDENCIES ] The app has not been updated for 8 years. Very outdated dependencies (Angular 1.4.3 from 8+ years ago) with known vulnerabilities.
+- [ 404 ] Missing resource: https://todolist.james.am/learn.json returns 404 Not Found
+- [ 404 ] Missing resource: https://todolist.james.am/api returns 404 Not Found
+- [ 404 ] Missing resource: https://todolist.james.am/favicon.ico returns 404 Not Found
+- [ BUG ] Input field contains 3 spaces after adding item due to `$scope.newTodo = '   ';` in todoCtrl.js
+- [ SECURITY ] No input sanitization or validation - XSS vulnerability potential
+- [ BAD PRACTICE ] node_modules directory committed to repository
+- [ BAD PRACTICE ] Missing build process, linting, and code quality tools
+- [ FILE TYPO ] Malformed dependency version in package.json: `"angular-route": "^ 1.4.3"` has extra space
+- [ MISSING ] No error handling for failed operations
+- [ MISSING ] No loading states or user feedback during async operations
+- [ ARCHITECTURE ] Lack of proper separation of concerns and error boundaries
+- [ TESTABILITY ] Delete button element inconsistency: Switches between text "×" and proper button elements based on item completion state, making reliable automation difficult
+- [ TESTABILITY ] Unreliable element targeting: Some UI elements (like mark-all checkbox) have overlapping clickable areas that interfere with automation
+- [ TESTABILITY ] Navigation testing limitations: Browser history manipulation requires JavaScript evaluation rather than native browser controls
+- [ TESTABILITY ] State persistence inconsistent: Some test scenarios show unexpected item states after page interactions
+- [ TESTABILITY ] Missing accessibility attributes: Lack of proper aria-labels and test identifiers makes reliable element selection challenging
+- [ FUNCTIONALITY ] Delete button visibility inconsistent: Delete button (×) not reliably visible or findable via automation, particularly when testing multiple todo items
+- [ FUNCTIONALITY ] Browser history navigation broken: Using window.history.back() doesn't properly navigate between filter states, causing navigation to hang indefinitely
+- [ FUNCTIONALITY ] Race condition in item creation: Newly created items don't immediately show expected delete buttons or proper DOM structure for automation
+- [ BUG ] Empty state layout broken: Main task area and footer controls remain visible when no tasks exist, violating clean interface requirement
+- [ BUG ] Input validation missing: Application accepts empty and whitespace-only task entries, creating blank tasks contrary to requirements
+- [ BUG ] Status counter grammar incorrect: Counter doesn't use proper singular/plural grammar (should be "1 item left" vs "2 items left")
+- [ BUG ] Status counter formatting wrong: Numbers not visually emphasized (not bold) and may contain decorative punctuation
+- [ BUG ] Clear completed button behavior broken: Doesn't show count of completed tasks and isn't properly hidden when no completed tasks exist
+- [ BUG ] Session persistence incomplete: Tasks and completion states don't reliably persist across browser restart/device reboot scenarios
+- [ BUG ] Filter view persistence partial: Selected view state (All/Active/Completed) doesn't consistently persist across page refreshes and browser restarts
+- [ BUG ] Input focus missing on load: Input field doesn't automatically receive focus on first page load for immediate task entry
+- [ BUG ] UI state transitions broken: Main area and footer don't properly show/hide when transitioning between empty and populated states
+- [ NEW FEATURE REQUEST ] Width horizontally could be wider, less whitespace
+- [ NEW FEATURE REQUEST ] Is title case intended?
+- [ FEATURE REQUEST ] Active selected tab could be visually emphasized
+- [ BUG ] Excessive zooming breaks the layout
+- [ BUG ] While the URL updates, the selected view filter is not saved to local storage.
