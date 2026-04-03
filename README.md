@@ -48,6 +48,7 @@ These questions are particularly essential in the agentic AI era, where agents c
 4. Seasoned testers observed in job interviews
    - Data not collected for research, anecdotal evidence shows senior testers of sample set 20+ have small percentage of people who do well in the exercise
    - Common patterns include expecting specifications with ready answers and limited set of ideas on how to discover problems
+   - Course teaching this is published at https://dev.to/maaretp/exploratory-testing-foundations-4lb3 Sept 20th 2021 and updated at https://github.com/QE-at-CGI-FI/ETF2025/blob/main/material/index.md November 17th 2025
 
 ### Test target: Potion shop
 
