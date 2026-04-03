@@ -2,9 +2,13 @@
 
 - Alan Richardson
   - specialty: exploratory testing, test automation
+- Aleksandra Schladebeck
+  - specialty: exploratory testing, agile testing
 - Anne-Marie Charrett
   - specialty: quality coaching
   - university lecturer
+- Bas Dijkstra
+  - specialty: programming for testing
 - Cem Kaner
   - specialty: software testing, legal aspects of software quality
   - university professor
@@ -14,6 +18,9 @@
   - specialty: exploratory testing
 - Janet Gregory
   - specialty: agile testing
+- Joep Schuurkes
+  - specialty:
+  - college teacher
 - Katja Obring
   - specialty: automation and pipelines
 - Maaret Pyhäjärvi
@@ -23,6 +30,8 @@
   - vocational visiting lecturer, 1 years
   - employment re-education training teacher, 1 year
   - commercial courses, 20+ years
+- Mark Wynteringham
+  - specialty: test automation, prompting for AI
 - Rikard Edgren
   - specialty: exploratory testing
   - vocational teacher
@@ -50,10 +59,13 @@
 | Elisabeth Hendrickson | exploratory testing, test automation                |
 | James Lyndsay         | exploratory testing                                 |
 | Janet Gregory         | agile testing                                       |
+| Joep Schuurkes        |                                                     |
 | Katja Obring          | automation and pipelines                            |
 | Kristoffer Nordström  | programming for testing                             |
 | Maaret Pyhäjärvi      | contemporary exploratory testing                    |
+| Mark Wynteringham     | test automation, prompting for AI                   |
 | Rikard Edgren         | exploratory testing                                 |
+| Ru Cindrea            | black-box software testing                          |
 | Sigrid Eldh           | test automation capability assessment               |
 | Tanja Vos             | software testing, automated testing with AI         |
 | Lisa Crispin          | agile testing                                       |
