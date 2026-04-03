@@ -19,6 +19,8 @@ This research is motivated by the observation of significantly different skills 
 - Can we measure resultful testing in a meaningful way?
 - Does ability to find problems predict success in tester roles or is this a teachable skill?
 - If this is a teachable skill, why don't we teach it at educational institutions?
+- In public bid we verify experience, but what if experience does not reflect skill necessary for the results? How should we change our selection criteria?
+- In age of AI, is scalable skills-based assessment possible globally, to replace the vocabulary-based certifications? 
 
 These questions are particularly essential in the agentic AI era, where agents capabilities on observation exceed people's. If core of testing used to be _serendipity_ and _perseverance_, in terms of "The more I practice, the luckier I get" - Arnold Palmer and "It's not that I'm so smart, I just stick with the problems longer" - Albert Einstein, what changes can we expect going forward with technology of today?
 
